@@ -1,0 +1,25 @@
+/*Center div */
+
+#books{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1px;
+    /* grid-auto-rows: minmax(100px, auto); */
+    padding: 35px;
+    margin: 0 auto;
+    /* justify-content: space-around; */
+    width: 100%;
+
+    
+}
+  
+  h2 {
+    text-align: center;
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 7px;
+  }
